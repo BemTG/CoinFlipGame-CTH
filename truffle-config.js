@@ -59,8 +59,6 @@ module.exports = {
     ethTestnet:{
       provider: ()=> new HDWalletProvider(
         privateKeys,
-        // 'https://rinkeby.infura.io/v3/275206eb633a43f39b5ea3bbebf79f87'
-        // 'https://rinkeby.infura.io/v3/29e350a5c5b349f2b9809e8f864b8d0b'
         'https://node.cheapeth.org/rpc'
         ),
       network_id:777,
